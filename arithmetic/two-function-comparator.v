@@ -1,3 +1,5 @@
+// Instantiation only
+
 module DW01_cmp2_inst( inst_A, inst_B, inst_LEQ, inst_TC, 
                        LT_LE_inst, GE_GT_inst );
 
