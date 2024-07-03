@@ -1,1 +1,1 @@
-# open-source-hdl
+# OpenChips
