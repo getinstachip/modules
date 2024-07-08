@@ -2,7 +2,7 @@ module bit4adder(
     input [3:0] x, y,
     input c_i,
     output [3:0] s,
-    output c_o,
+    output c_o
 );
     wire [3:0] c;
     full_adder FA0(
