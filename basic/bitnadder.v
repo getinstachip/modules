@@ -17,7 +17,6 @@ module bitnadder #(
                 .c(c[i]),
                 .s(s[i]),
                 .c_o(c[i+1])
-
             );
         end
     endgenerate
