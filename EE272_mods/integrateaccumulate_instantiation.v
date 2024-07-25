@@ -1,4 +1,4 @@
-module top_module (
+module acc (
    
     input clk,
     input rst_n,
