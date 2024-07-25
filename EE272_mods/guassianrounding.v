@@ -1,6 +1,6 @@
 // NOT VERIFIED
 
-module convround #(parameter IWID = 16, OWID = 8, SHIFT = 0) (
+module round #(parameter IWID = 16, OWID = 8, SHIFT = 0) (
     input wire i_clk, i_ce,
     input wire signed [IWID-1:0] i_val,
     output reg signed [OWID-1:0] o_val
