@@ -15,6 +15,7 @@ module fifo #(
     output [WIDTH-1:0] dout,
     output empty
 );
+    // TODO replace these assignment statements.
     assign full = 1'b1;
     assign empty = 1'b0;
     assign dout = 0;

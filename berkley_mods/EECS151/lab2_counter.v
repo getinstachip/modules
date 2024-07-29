@@ -3,19 +3,16 @@ module counter (
   input ce,
   output [3:0] LEDS
 );
-    // Some initial code has been provided for you
-    // You can change this code if needed
-    reg [3:0] led_cnt_value;
-    assign LEDS = led_cnt_value;
+    // TODO: delete this assignment once you write your own logic.
+    assign LEDS = 4'd0;
 
-    // TODO: Instantiate a reg net to count the number of cycles
+    // TODO: Instantiate a register (from the 151 library) to count the number of cycles
     // required to reach one second. Note that our clock period is 8ns.
-    // Think about how many bits are needed for your reg.
+    // Think about how many bits are needed for your register.
 
-    always @(posedge clk) begin
-        // TODO: update the reg if clock is enabled (ce is 1).
-        // Once the requisite number of cycles is reached, increment the count.
+    // TODO: Instantiate a register to hold the current count,
+    // and assign this value to the LEDS.
 
-    end
+    // TODO: update the register if clock is enabled (ce is 1).
+    // Once the requisite number of cycles is reached, increment the count.
 endmodule
-

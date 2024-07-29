@@ -6,7 +6,7 @@ module dac #(
     input rst,
     input [CODE_WIDTH-1:0] code,
     output next_sample,
-    output reg pwm
+    output pwm
 );
     assign pwm = 0;
     assign next_sample = 0;

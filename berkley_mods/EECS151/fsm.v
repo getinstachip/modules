@@ -14,13 +14,12 @@ module fsm #(
     assign leds_state = 0;
 
     wire [1:0] addr;
-    wire wr_en, rd_en;
+    wire wr_en;
     wire [23:0] d_in, d_out;
 
     fcw_ram notes (
         .clk(clk),
         .rst(rst),
-        .rd_en(rd_en),
         .wr_en(wr_en),
         .addr(addr),
         .d_in(d_in),

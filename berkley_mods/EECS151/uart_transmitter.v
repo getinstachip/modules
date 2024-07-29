@@ -15,7 +15,7 @@ module uart_transmitter #(
     localparam  SYMBOL_EDGE_TIME    =   CLOCK_FREQ / BAUD_RATE;
     localparam  CLOCK_COUNTER_WIDTH =   $clog2(SYMBOL_EDGE_TIME);
 
-    // Remove these assignments when implementing this module
+    // TODO Remove these assignments when implementing this module
     assign serial_out = 1'b0;
     assign data_in_ready = 1'b0;
 endmodule
