@@ -1,4 +1,4 @@
-module counter (
+module lab2_counter (
   input clk,
   input ce,
   output [3:0] LEDS

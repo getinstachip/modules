@@ -1,4 +1,4 @@
-module counter #(
+module lab3_counter #(
     parameter CYCLES_PER_SECOND = 125_000_000
 )(
     input clk,
